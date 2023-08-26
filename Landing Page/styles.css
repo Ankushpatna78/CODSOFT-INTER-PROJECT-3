@@ -1,0 +1,157 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #ff8800;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #cc6600;
+}
+
+#features {
+  padding: 3rem 0;
+  background-color: #f4f4f4;
+  background-color: #29282f;
+}
+
+#features h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.feature-item {
+  max-width: 300px;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #8e83da;
+}
+
+#about {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+#contact {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+form button {
+  background-color: #ff8800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.feature-image {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: 
+
+}
+
+#about {
+  background-color: #3ea9ca;
+}
